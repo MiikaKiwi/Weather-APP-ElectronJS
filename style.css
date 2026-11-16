@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: 'Pixelated';
+    src: url('./fonts/PixelifySans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('./fonts/VT323-Regular.ttf');
+}
+
+
+body{
+    font-family: 'Pixelated';
+    background-image: url("./src/fondo.gif");
+}
+
+#titulo{
+    text-align: center;
+}
+
+
+
+#cuadroclima{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#climaimg{
+    margin-top: 1%;
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+#ciudad{
+    text-align: center;
+    margin-left: 30px;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 20%;
+}
+
+#tiempo{
+    margin-left: 25%;
+    font-family: 'Pixel';
+}
+
+#temp{
+    font-family: 'Pixel';
+}
+
+
+
+
